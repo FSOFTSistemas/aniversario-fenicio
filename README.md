@@ -45,16 +45,16 @@ Para visualizar o projeto localmente, siga os passos abaixo:
 ```bash
 git clone https://github.com/seu-usuario/aniversario-homem-aranha.git
 
-### 2️⃣ Acessar a Pasta do Projeto
+## 2️⃣ Acessar a Pasta do Projeto
 ```bash
 cd aniversario-homem-aranha
 
-### 3️⃣ Abrir o Projeto no Navegador
+## 3️⃣ Abrir o Projeto no Navegador
 
 Abra o arquivo index.html no seu navegador favorito! 🖥️
 
 
-### 🔄 Contribuições
+## 🔄 Contribuições
 
 ## Se você quiser contribuir para este projeto, fique à vontade para fazer um fork e enviar pull requests! 🚀
 
@@ -65,7 +65,7 @@ Como Contribuir
 	4.	Envie a branch (git push origin feature-nome).
 	5.	Abra um pull request no GitHub.
 
-### 📫 Contato
+## 📫 Contato
 
 Se você tiver alguma dúvida ou sugestão, fique à vontade para me enviar uma mensagem!
 
