@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura de BENICIO</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gagalín&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gagalín';
+            color: #fff;
+            overflow: hidden;
+            background-image: url('images/fundo.png');
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s;
+        }
+
+        .header h1 {
+            font-size: 50px;
+            color: #3f919d;
+            text-shadow: 2px 2px #000;
+        }
+
+        .header h2 {
+            font-size: 24px;
+            margin-top: -10px;
+        }
+
+        .spiderman {
+            position: absolute;
+            animation: float 2s infinite;
+            top: 10%;
+            right: 10%;
+        }
+
+        .spiderman2 {
+            position: absolute;
+            animation: float 2s infinite;
+            top: 10%;
+            left: 10%;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+        }
+
+        .btn {
+            margin: 15px;
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #3f919d;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn:hover {
+            background-color: #b00711;
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 10px #fff;
+        }
+
+        .btn i {
+            font-size: 25px;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Aventura de Benicio</h1>
+    </div>
+
+    <img src="images/homem-aranha.png"
+         alt="Spider-Man"
+         class="spiderman2"
+         width="200">
+
+         
+    <div class="buttons">
+        <a href="https://maps.app.goo.gl/Y8axbNkSR6xUyy3A7" target="_blank" class="btn">
+            <i class="fas fa-map-marker-alt"></i> Localização
+        </a>
+
+        <a href="dicas_presentes.html" target="_blank" class="btn">
+            <i class="fas fa-gift"></i> Dicas de Presente
+        </a>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScK7xP1kxn499QsW6KQOPZoSEWGA9WKVwycwFHq2NiepeAJ6g/viewform?usp=dialog" target="_blank" class="btn">
+            <i class="fas fa-check-circle"></i> Confirmação de presença
+        </a>
+    </div>
+    <div class="footer">
+        <p>Com muita diversão e aventura para comemorar!</p>
+    </div>
+</body>
+</html>
