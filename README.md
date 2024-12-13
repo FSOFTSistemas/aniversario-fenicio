@@ -44,13 +44,13 @@ Para visualizar o projeto localmente, siga os passos abaixo:
 
 ```bash
 git clone https://github.com/seu-usuario/aniversario-homem-aranha.git
-
+```
 ---
 
 ## 2️⃣ Acessar a Pasta do Projeto
 ```bash
 cd aniversario-homem-aranha
-
+```
 ---
 
 ## 3️⃣ Abrir o Projeto no Navegador
