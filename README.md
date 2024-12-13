@@ -44,3 +44,34 @@ Para visualizar o projeto localmente, siga os passos abaixo:
 
 ```bash
 git clone https://github.com/seu-usuario/aniversario-homem-aranha.git
+
+### 2️⃣ Acessar a Pasta do Projeto
+```bash
+cd aniversario-homem-aranha
+
+### 3️⃣ Abrir o Projeto no Navegador
+
+Abra o arquivo index.html no seu navegador favorito! 🖥️
+
+
+### 🔄 Contribuições
+
+## Se você quiser contribuir para este projeto, fique à vontade para fazer um fork e enviar pull requests! 🚀
+
+Como Contribuir
+	1.	Faça o fork do repositório.
+	2.	Crie uma nova branch para sua feature (git checkout -b feature-nome).
+	3.	Faça alterações e commit (git commit -m 'Adiciona nova feature').
+	4.	Envie a branch (git push origin feature-nome).
+	5.	Abra um pull request no GitHub.
+
+### 📫 Contato
+
+Se você tiver alguma dúvida ou sugestão, fique à vontade para me enviar uma mensagem!
+
+GitHub: https://github.com/jlalvescarvalho
+Email: lucianoalves413@gmail.com
+
+### 📜 Licença
+
+Este projeto é licenciado sob a MIT License.
